@@ -2,6 +2,11 @@ UFC fighter analysis
 
 Question: Which MMA gym is the best in the world?
 
+My prediction: AKA(American Kickboxing Academy)
+Best gym based on win/loss ratio: City Kickboxing
+
+My own insights proved me wrong and gave me the right answer.
+
 A common misconception is that the best gyms have the "best" fighters, but what does this really mean? I believe the best gym has the highest win to loss ratio
 out of all fighters that train at the gym.
 
