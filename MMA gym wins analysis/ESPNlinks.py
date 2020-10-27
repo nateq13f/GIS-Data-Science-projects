@@ -88,32 +88,3 @@ df.to_csv('C:\\Users\\Nqwri\\Desktop\\coding\\PythonWebScraping\\Profile.csv',
           encoding='utf-8', index=False)
 print(df.head(10))
 df.describe()
-
-
-
-######################################################
-#  ESPN top 10 by division
-# https://www.espn.com/mma/story/_/id/21807736/jorge-masvidal-douglas-lima-shake-welterweight-rankings
-
-# 1) record fighter name link text
-# 2) click name link
-# 3) record TEAM name text
-# 4) record W-L-D data text
-
-# had to make try blocks and stop the infinite looping once all fighter profiles were sc
-
-# 5) send to text file then csv ?? or straight to csv
-
-
-#   What if there's no class and the info you need is listed under a li tag?
-#    Do a find_all() to get all the li tags and index [0] the list to find the one you want
-
-
-# Creating a virtual environment
-# py -3 -m venv venv
-
-# Activating virtual environment
-# ./venv/Scripts/activate
-
-# De-activating virtual environment
-# deactivate
