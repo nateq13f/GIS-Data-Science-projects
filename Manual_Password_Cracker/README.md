@@ -10,6 +10,6 @@ Steps I took.</br>
 sed '/!!/d; /*/d' ./shadowtester >> moddedShadow </br>
 grep -oP '^[^\:]*\:\K[^\:]+' moddedShadow
 
-The final parsed password file format: </br>
+The final parsed password file format extracted from etc/shadow: </br>
 
 # $id$salt$hash
