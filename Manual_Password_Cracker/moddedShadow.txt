@@ -1,0 +1,5 @@
+root:$1$TDQFedzX$qn4Bxq8OjJSjrQCcgEOSO0:15045:0:99999:7:::
+t:$1$8badf00d$ATTj.sk41zsX5jgD7BfAB1:15045:0:99999:7:::
+adamkaplan:$6$S4Y0gQuy$QRkLo5t/6KONMAiQY9DIAPojv0Q8CBvDtNqe02sfR7rnEdw.QgSm0LU/JRcIc/Arn/PpK3lxroc19bVQDwUGQ/:17786:0:99999:7:::
+cardib:$6$t84.Fvbo$8lKHpxBDnjoHhnFS3.A4ezNZmKfy5MLbe7UGZoOnWgz55j0g5TBx5LOQAujDiqkUuE50EACOZsydlBZgy5jkw/:17786:0:99999:7:::
+netneng:$1$ou812bad$3Obl7PLLuHNR0t8b2JaLW/:14196:0:99999:7:::
