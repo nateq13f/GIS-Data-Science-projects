@@ -1,0 +1,27 @@
+
+ CREATE TABLE users (
+    user_id INT(8) AUTO_INCREMENT,
+    user_username varchar(30) NOT NULL UNIQUE,
+    user_password varchar(255) NOT NULL,
+    user_firstname varchar(255) NOT NULL,
+    user_lastname varchar(30) NOT NULL,
+    user_date datetime NOT NULL,
+    user_email varchar(255) NOT NULL,
+    PRIMARY KEY (user_id));
+                             
+ CREATE TABLE reviews (
+    review_id INT(8) NOT NULL AUTO_INCREMENT,
+    review_date DATETIME NOT NULL,
+    review_content TEXT NOT NULL,
+    review_score INT(8),
+    review_user INT(8) NOT NULL,
+    Review_game INT(8) NOT NULL,
+    review_parent INT(10) DEFAULT -1, 
+    PRIMARY KEY (review_id),
+    FOREIGN KEY (review_user) REFERENCES users(user_id));
+
+
+#       COMMANDS FOR RDS FROM EC2 ---------
+#	mysql -h host.address.for.rds.server -P 3306 -u rdsusername -p
+#	(enter your password)
+#	create database rdsdatabase;
