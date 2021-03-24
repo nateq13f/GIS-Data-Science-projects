@@ -9,4 +9,4 @@ We also did not go with the serverless design becasue the front end team would h
 
 I created entire AWS architecture with possiblity of HA version and serverless version.<br/>
 I ensured the php connection files had the correct credentials for the DB connection.<br/>
-I also helped create the database and uplaoded it from the ec2 isntance into the RDS instance.
+I also helped create the database and uploaded it from the ec2 isntance into the RDS instance.
