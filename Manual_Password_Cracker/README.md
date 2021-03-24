@@ -1,0 +1,11 @@
+# Manual Password Cracker
+
+Started with a etc/shadow file and a word dictionary file.
+
+Steps I took.
+
+1.&nbsp I had to parse the shadow file and isolate the hashes that were not hidden.
+2.&nbsp I used sed and grep to make a final small file with only the hashes to run against.
+
+sed '/!!/d; /*/d' ./shadowtester >> moddedShadow
+grep -oP '^[^\:]*\:\K[^\:]+' moddedShadow
